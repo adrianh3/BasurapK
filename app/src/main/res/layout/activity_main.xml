@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoo"
+    tools:context="adrian.ejempl.basurapk.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnMapa"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="244dp"
+        android:background="@color/colorGreen"
+        android:text="Mapa" />
+
+    <Button
+        android:id="@+id/btnNotificacion"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnMapa"
+        android:layout_alignEnd="@+id/btnMapa"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="190dp"
+        android:background="@color/colorGreen"
+        android:text="Noticias" />
+
+    <Button
+        android:id="@+id/btnInfoRuta"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnMapa"
+        android:layout_alignEnd="@+id/btnMapa"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="133dp"
+        android:background="@color/colorGreen"
+        android:text="Info. Rutas" />
+
+    <Button
+        android:id="@+id/btnContacto"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnInfoRuta"
+        android:layout_alignEnd="@+id/btnInfoRuta"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="80dp"
+        android:background="@color/colorGreen"
+        android:text="Contacto" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-23dp"
+        android:layout_toStartOf="@+id/button7"
+        android:background="@color/colorAccent"
+        android:text="Administrador"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:background="@color/colorAccent"
+        android:text="Chofer"
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="315dp"
+        android:layout_height="357dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="314dp"
+        app:srcCompat="@drawable/logonegro" />
+
+    <ImageView
+        android:id="@+id/imgMapa"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="248dp"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imgNoticias"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="190dp"
+        app:srcCompat="@drawable/bell" />
+
+    <ImageView
+        android:id="@+id/imgRutas"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="135dp"
+        app:srcCompat="@drawable/destination" />
+
+    <ImageView
+        android:id="@+id/imgContacto"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="85dp"
+        app:srcCompat="@drawable/communication" />
+
+    <ImageView
+        android:id="@+id/imgSALIR"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="97dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Salir"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="-3dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Aviso De Privacidad."
+        android:textColor="@android:color/background_dark"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:id="@+id/imgAviso"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="-1dp"
+        app:srcCompat="@drawable/dat" />
+
+</RelativeLayout>

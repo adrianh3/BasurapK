@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoo"
+    tools:context="adrian.ejempl.basurapk.contacto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnEnviar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="90dp"
+        android:text="Enviar" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:maxLength="50"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:digits=" abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTelefono"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Teléfono"
+        android:inputType="phone"
+        android:maxLength="15" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:maxLength="35"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:textAllCaps="false"
+        android:digits=".abcdefghijklmnñopqrstuv123456789@-_ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtMensaje"
+        android:layout_width="380dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="15dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Escribir mensaje..."
+        android:inputType="textMultiLine"
+        android:maxLength="100" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="59dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="2dp"
+        app:srcCompat="@drawable/logonegro" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        app:srcCompat="@drawable/agenda" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="37dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Quejas Y Sugerencias"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="71dp"
+        android:text="Contacto" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="419dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="¡Ojo!, Si no escribes tus datos personales de forma correcta, no podremos contactarte, No cuentas con correo electronico? vuelve a escribir tu nombre en el campo email."
+        android:textColor="@android:color/holo_red_dark" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

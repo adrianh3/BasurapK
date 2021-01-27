@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoo">
+
+
+    <Button
+        android:id="@+id/btnRuta9"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="14dp"
+        android:drawableLeft="@drawable/tracking"
+        android:text="(Zona Centro) Av. Lázaro Cárdenas - Constitución 1814" />
+
+    <Button
+        android:id="@+id/btnRuta10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="14dp"
+        android:drawableLeft="@drawable/tracking"
+        android:text="(Zona centro) Escuela Naval Militar - Av. Río Balsas" />
+
+    <Button
+        android:id="@+id/btnRuta11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="14dp"
+        android:drawableLeft="@drawable/tracking"
+        android:text=" (Zona centro) AV. RECTOR HIDALGO - AV.LÁZARO CÁRDENAS" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="133dp"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        app:srcCompat="@drawable/logonegro" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="105dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ruta 9 Verde "
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ruta 10 Roja"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ruta 11 Azul"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="347dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="53dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Información de rutas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="345dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Al hacer clic en alguna ruta se desplegara información más a detalle"
+        android:textColor="@android:color/holo_red_dark" />
+
+</RelativeLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoo"
+    tools:context="adrian.ejempl.basurapk.infoRutaDetail9">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="-1dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Información de Ruta 9"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp" />
+
+
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:layout_width="348dp"
+        android:layout_height="257dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="35dp" />
+
+    <com.zolad.zoominimageview.ZoomInImageView
+        android:layout_width="284dp"
+        android:layout_height="217dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="62dp"
+        android:src="@drawable/verdenueve" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="426dp"
+                android:layout_marginEnd="155dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Horarios :"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="244dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="321dp"
+                android:layout_marginEnd="163dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Calles principales:"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="244dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="491dp"
+                android:layout_marginEnd="156dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Color en el mapa:"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="383dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="629dp"
+        android:layout_marginEnd="17dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text='En la sección "Mapa" podras ver la ruta con el color especificado, la localización de los contenedores y el camion en tiempo real !!!'
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="118dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="281dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Verde"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="390dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Lunes a Viernes de 4 Am a 10 Am"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="347dp"
+                android:layout_marginEnd="14dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Av. Lázaro Cárdenas - Constitución de 1814 - Nicolás Bravo - Manuel Doblado"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/idMapa"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="48dp"
+        android:text="Ir al Mapa" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/leftarrow" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

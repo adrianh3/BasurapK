@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoo"
+    tools:context="adrian.ejempl.basurapk.infoRutaDetail11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:layout_width="348dp"
+        android:layout_height="257dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="35dp"
+        />
+
+    <com.zolad.zoominimageview.ZoomInImageView
+        android:layout_width="327dp"
+        android:layout_height="251dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="42dp"
+        android:src="@drawable/azulonce" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/leftarrow" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="-2dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Información de Ruta 11"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="441dp"
+                android:layout_marginEnd="149dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Horarios :"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="244dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="334dp"
+                android:layout_marginEnd="155dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Calles principales:"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="244dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="500dp"
+                android:layout_marginEnd="150dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Color en el mapa:"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="383dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="634dp"
+        android:layout_marginEnd="17dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text='En la sección "Mapa" podrás ver la ruta con el color especificado, la localización de los contenedores y el camión, en tiempo real!'
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="118dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="529dp"
+        android:layout_marginEnd="274dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Azul"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="390dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Lunes a Viernes de 4 Am a 10 Am"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="363dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Av Heroica naval militar, Av Rio balsas, Rio tepalcatepec."
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/idMapa"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="49dp"
+        android:text="Ir al Mapa" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

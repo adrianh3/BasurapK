@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="rutas">
+
+    <item>(Zona Centro) Ruta 9</item>
+    <item>(Zona Centro) Ruta 10 </item>
+    <item>(Zona Centro) Ruta 11</item>
+
+</string-array>
+
+
+
+
+</resources>

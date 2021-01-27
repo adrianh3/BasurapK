@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/verde"
+    tools:context="adrian.ejempl.basurapk.LoginCh">
+
+
+    <Button
+        android:id="@+id/btnEntrarCh"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Entrar" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="357dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Bienvenido Al Departamento De Aseo Público (Choferes)"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSalirCh"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:fontFamily="sans-serif-medium"
+        android:text="Salir" />
+
+    <EditText
+        android:id="@+id/edtRuta"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="28dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:text="11"
+        android:inputType="textPersonName"
+             />
+
+    <EditText
+        android:id="@+id/edtContrasena"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="28dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:text="0011"
+        android:inputType="textPassword"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="160dp"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="126dp"
+        app:srcCompat="@drawable/logonegro" />
+
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="320dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="85dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Si olvidaste tu contraseña o no puedes acceder, comunicate con BasurapK desde la siguiente imagen: "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imgContactos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="483dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/operator" />
+
+
+</RelativeLayout>

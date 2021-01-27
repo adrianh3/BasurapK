@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Basurapk</string>
+    <string name="Ruta1">Calle 1, a la 2, a la 3</string>
+    <string name="Ruta2">Calle tal a tal a tal</string>
+    <string name="Ruta3">Beto pui pui 1 2 3</string>
+    <string name="Ruta4">Esaaaa es la mole</string>
+    <string name="Ruta5">Ora Jotoooo</string>
+    <string name="ruta_2">Ruta 2</string>
+    <string name="ruta_3">Ruta 3</string>
+    <string name="ruta_4">Ruta 4</string>
+    <string name="ruta_5">Ruta 5</string>
+    <string name="ruta_1">Ruta 1</string>
+    <string name="informaci_n_de_rutas">Información de rutas</string>
+    <string name="calle_melchor_ocampo_av_2_n_horarios_aprox_7am_12pm_n_d_as_lunes_martes_viernescalle_melchor_ocampo_av_2_n_horarios_apr">calle_melchor_ocampo_av_2_n_horarios_aprox_7am_12pm_n_d_as_lunes_martes_viernescalle_melchor_ocampo_av_2_n_horarios_apr</string>
+    <string name="dghdghndghndghndghn">dghdghndghndghndghn</string>
+    <string name="title_activity_mapa">Map</string>
+</resources>
